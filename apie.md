@@ -8,7 +8,7 @@ image: 360.png
 
 **EUROPOS PARAMOS KVIETIMAS INOVACINIAM BENDRADARBIAVIMUI SKATINTI: „INOVACINIAI ČEKIAI“**
 
-<u>PRIEMO4NĖS TIKSLAS:</u> paskatinti labai mažas, mažas ir vidutines įmones (toliau – MVĮ) diegtis technologines ekoinovacijas, siekiant sumažinti neigiamas klimato kaitos ir šiltnamio efekto pasekmes.
+<u>PRIEMONĖS TIKSLAS:</u> paskatinti labai mažas, mažas ir vidutines įmones (toliau – MVĮ) diegtis technologines ekoinovacijas, siekiant sumažinti neigiamas klimato kaitos ir šiltnamio efekto pasekmes.
 
 <u>GALIMI PAREIŠKĖJAI:</u> Privatūs juridiniai asmenys: registruoti ne trumpiau nei 6 mėn. Metinė apyvarta ne mažesnė nei 3.000 EUR. Partneriai negalimi.
 
