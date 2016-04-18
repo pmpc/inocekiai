@@ -2,7 +2,7 @@
 layout: page
 title: Apie inocekiai.lt
 permalink: /apie/
-link: www.inocekiai.lt
+link:
 image: 360.png
 ---
 

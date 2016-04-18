@@ -52,6 +52,15 @@ body {
 
 .back-to-top {
   float: right;
+  color: white;
+}
+
+.back-to-top:hover {
+  color: white;
+}
+
+.back-to-top:visited {
+  color: white;
 }
 
 article {
@@ -105,6 +114,11 @@ article {
 
 .navbar-default .navbar-toggle {
   border-color: white;
+}
+
+.col-sm-3 h3 a:hover {
+  color: #4a5ecf;
+  text-decoration:none;
 }
 
 @media screen and (max-width: 1120px) {
