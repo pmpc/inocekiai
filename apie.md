@@ -42,7 +42,7 @@ Maksimali parama įmonei: 6000 EUR pagal fiksuotąjį įkainį.  (Įkainiai bus 
             <li> Vidutinė įmone 60 proc;</li>
             <li> Didelė įmonė 50 proc.</li>
         </td>
-         <td>
+         <td style="padding-right: 190px;">
              Eksperimentinei plėtrai:
              <li> Maža įmonė – 45 proc.;</li>
              <li> Vidutinė įmonė 35 proc.;</li>
