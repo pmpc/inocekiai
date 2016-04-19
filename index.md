@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Apie inocekiai.lt
-permalink: /apie/
+title: Apie inočekiai.lt
+permalink: /
 link:
 image: 360.png
 ---
@@ -34,20 +34,20 @@ Maksimali parama įmonei: 6000 EUR pagal fiksuotąjį įkainį.  (Įkainiai bus 
 
 **Didžiausias finansavimo intensyvumas:**
 
-<table class="table table-bordered">
+<table class="table table-bordered" style="border: 2px dotted #4a5ecf">
     <tr>
-        <td>
+        <td style="border: 2px dotted #4a5ecf">
             Techninių galimybių studijoms ir moksliniams tyrimams:
             <li> Labai maža ir maža įmonė 70 proc;</li>
             <li> Vidutinė įmone 60 proc;</li>
             <li> Didelė įmonė 50 proc.</li>
         </td>
-         <td style="padding-right: 190px;">
-             Eksperimentinei plėtrai:
-             <li> Maža įmonė – 45 proc.;</li>
-             <li> Vidutinė įmonė 35 proc.;</li>
-             <li> įmonė 25 proc.</li>
-         </td>
+        <td style="padding-right: 190px;">
+            Eksperimentinei plėtrai:
+            <li> Maža įmonė – 45 proc.;</li>
+            <li> Vidutinė įmonė 35 proc.;</li>
+            <li> įmonė 25 proc.</li>
+        </td>
     </tr>
 </table>
 

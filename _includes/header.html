@@ -25,7 +25,6 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-
           {% for my_page in site.pages %}
             {% if my_page.title %}
               {% if {my_page.url} != '/kontaktai/' %}
@@ -33,7 +32,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <li><a href="{{ my_page.ur | prepend: site.baseurl }}/kontaktai/">Kontaktai</a></li>
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}/kontaktai/">Kontaktai</a></li>
         </ul>
       </div>
     </div>
