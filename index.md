@@ -10,10 +10,11 @@ image: 360.png
 Mes atstovaujame tris mokslo ir studijų įstaigas – **Kauno kolegiją**, **Lietuvos Verslo kolegiją** ir **VU Kauno humanitarinį fakultetą**. 
 Susiekite su mumis ir mes Jums padėsime išsirinkti tinkamiausią verslo sprendimą pagal universitetų ir kolegijų teikiamų paslaugų sąrašą.
 
+<br>
 
-  
-
+{: style="text-align: center;"}
 **EUROPOS PARAMOS KVIETIMAS INOVACINIAM BENDRADARBIAVIMUI SKATINTI: „INOVACINIAI ČEKIAI“**
+<br>
 
 <u>PRIEMONĖS TIKSLAS:</u> 
 
