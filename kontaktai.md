@@ -5,7 +5,7 @@ permalink: /kontaktai/
 link:
 image: 360.png
 ---
-<a href="http://www.Inocekiai.lt">www.Inocekiai.lt</a>
+<a href="http://www.Inocekiai.lt">**Inocekiai.lt**</a>
 <br>
 Tel.: +370 652 84039
 <br>
