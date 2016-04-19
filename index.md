@@ -13,8 +13,11 @@ Susiekite su mumis ir mes Jums padėsime išsirinkti tinkamiausią verslo sprend
 **EUROPOS PARAMOS KVIETIMAS INOVACINIAM BENDRADARBIAVIMUI SKATINTI: „INOVACINIAI ČEKIAI“**
 
 <u>PRIEMONĖS TIKSLAS:</u> 
+
 - Skatinti verslą ir mokslą užmegzti pirminius kontaktus;
+
 - Tęsti bendradarbiaujant jau pradėtas vykdyti MTEP veiklas;
+
 - Skatinti įmones aktyviau vykdyti inovacinę veiklą bei pasinaudoti bendradarbiavimo teikiamomis galimybėmis.
 
 <u>GALIMI PAREIŠKĖJAI:</u> Privatūs juridiniai asmenys: registruoti ne trumpiau nei 6 mėn. Metinė apyvarta ne mažesnė nei 3.000 EUR. Partneriai negalimi.
