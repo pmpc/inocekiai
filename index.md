@@ -5,6 +5,10 @@ permalink: /
 link:
 image: 360.png
 ---
+**Inočekiai.lt** komanda padės jums gauti iki 6.000 Eur. negrąžinamą Europos Sąjungos paramą pagal priemonę „Inovaciniai čekiai LT“, skirtą įmonių inovacinės veiklos pradžiai. 
+
+Mes atstovaujame tris mokslo ir studijų įstaigas – Kauno kolegiją, Lietuvos Verslo kolegiją ir VU Kauno humanitarinį fakultetą. 
+Susiekite su mumis ir mes Jums padėsime išsirinkti tinkamiausią verslo sprendimą pagal universitetų ir kolegijų teikiamų paslaugų sąrašą.
 
 **EUROPOS PARAMOS KVIETIMAS INOVACINIAM BENDRADARBIAVIMUI SKATINTI: „INOVACINIAI ČEKIAI“**
 
