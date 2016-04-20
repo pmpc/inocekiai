@@ -52,7 +52,18 @@ Paslaugos:
 - Belaidžių tinklų patikimumo veiksnių tyrimas: aplinkinių belaidžių tinklų analizė; kanalų persidengimo tyrimas; nepageidaujamų arba paslėptų prieigos taškų paieška; belaidžio tinklo techninių sprendimų įdiegimas.
 - Kompiuterių tinklo patikimumo veiksnių tyrimas: Įvairių (kategorijų, ilgių) tinklo kabelių elektromagnetinių charakteristikų tyrimus realiomis sąlygomis; kabelių kokybės ir nuokrypių nuo normalių sąlygų vertinimas; kabelių ir duomenų perdavimo esant skirtingoms aplinkos sąlygoms tyrimas; kabelių diegimo defektų nustatymas ir šių defektų šalinimo sprendimų įdiegimas.
 - Specialios paskirties bepilotėms skraidyklėms pritaikomų, skirtų įvairių parametrų nustatymams  sensorinių - informacinių sistemų kūrimas. Daiktų interneto technologijų (angl. internet things), Išmaniųjų sistemų bei priemonių sukūrimas. Naudojama autonominėms ir bepilotėms ir išmaniosioms transporto  priemonėms.
+- E-leidyba, audio-video technologijos:
+  * El. knygų parengimas epub formatu;
+  * Video siužetai interneto svetainėms, dalinimuisi soc tinklais;
+  * Interaktyvūs video.
+- Tinklapių kūrimas (Web-development):
+  * statiniai html/css/javascript tinklalapiai; 
+  * dinaminiai tinklalapiai su Word Press turinio valdymo sistema; 
+  * dinaminiai tinklalapiai su kitomis atviro kodo turinio valdymo sistemomis (e-parduotuvės, kt.); 
+  * nestandartiniai PHP/MySQL/JavaScript/HTML/CSS sprendimai ir sistemos.
 - 
+
+
 
 <br>
 <div style="display:inline">Kryptis:</div>
