@@ -29,10 +29,8 @@ Paslaugos:
 - Baldų gamybos ir medienos gaminių technologijų bei procesų sukūrimas, medžiagų bei baldų/gaminių prototipų sukūrimas ir jų kokybės tyrimas.
 - Spausdinimo technologijų, procesų, medžiagų ir gaminių kokybės tyrimai.
 - Spausdinimo technologijų, procesų, medžiagų ir gaminių kokybės tyrimai ir metodikos optimizavimas.
-- 
 
 <br>
-
 <div style="display:inline">Kryptis:</div>
 <div style="display:inline; color: #4a5ecf"> TRANSPORTAS, LOGISTIKA IR INFORMACINIŲ RYŠIŲ TECHNOLOGIJOS</div>
 Paslaugos:
@@ -61,9 +59,12 @@ Paslaugos:
   * dinaminiai tinklalapiai su Word Press turinio valdymo sistema; 
   * dinaminiai tinklalapiai su kitomis atviro kodo turinio valdymo sistemomis (e-parduotuvės, kt.); 
   * nestandartiniai PHP/MySQL/JavaScript/HTML/CSS sprendimai ir sistemos.
-- 
-
-
+- Grafinių technologijų ir gaminių tyrimai.
+- E-leidyba, audio-video technologijų produktų parengimas:
+  * El. knygų parengimas epub formatu; 
+  * Video siužetai interneto svetainėms, dalinimuisi soc tinklais;
+  * Interaktyvūs video.
+- Grafinių technologijų ir gaminių tyrimai. Vizualizacija, animacija, dizainas.
 
 <br>
 <div style="display:inline">Kryptis:</div>
@@ -81,7 +82,6 @@ Paslaugos:
 
 - Vonios druskos, kaip sveikatinimo priemonės su specialiais funkciniais komponentais, skirtos vaikams (3-9 metų amžiaus) gamybos  technologija (prototipo gamyba, demonstravimas ir bandomosios partijos gamyba).
 - E-paslaugų sistema ligonių slaugos procesų optimizavimui. Visuomenės sveikatos technologijų - individualių prognozinių, predikcinių  modelių, i-sprendimų palaikymo paslaugų bei skaitmeninio paciento sistemos funkcijų įdiegimas.
-- 
 
 <br>
 <div style="display:inline">Kryptis:</div>
@@ -91,3 +91,37 @@ Paslaugos:
 - Elektros energijos generavimo proceso tyrimai: Hibridinių energijos kaupiklių parametrų analizė; Mechatroninės sistemos, skirtos hibridinei „akumuliatorius superkondensatorius“ sistemai valdyti, pirminio modelio sukūrimas.  Naudojama racionaliam energijos generatorių, tinklo ir vartotojų valdymui.
 - Energijos gautos iš atsinaujinančių energijos šaltinių saugojimo sistemų tyrimai: Saulės baterijos ir vėjo jėgainės darbinių parametrų stebėjimo automatinės posistemės  ir jos internetinės naudotojo sąsajos sukūrimas bei demonstravimas.
 Panaudojimas - informacinių valdymo sistemų kūrimas, leidžiančių integruoti ir optimizuoti saulės energetikos panaudojimą kartu su kitais energijos šaltiniais.
+
+<br>
+<div style="display:inline">Kryptis:</div>
+<div style="display:inline; color: #4a5ecf"> AGROINOVACIJOS IR MAISTO TECHNOLOGIJOS </div>
+Paslaugos:
+
+- Maisto produktų biotechnologiniai sprendimai ir kokybės bei saugos tyrimai.
+- Priedų ir netradicinių žaliavų panaudojimo maisto produktuose galimybių tyrimas, technologijų kūrimas ir jų adaptavimas gamyboje.
+- Maisto produktų technologiniai sprendimai ir kokybės bei saugos tyrimai (prototipo kūrimas, demonstravimas, bandomosios partijos gamyba).
+- Modelinių maisto sistemų sukūrimas pritaikant pakavimo medžiagas, technologijas, laikymo sąlygų optimizavimą.
+- Produktų džiovinimas šalčiu vakuuminėje erdvėje.
+- Technologinių instrukcijų rengimas.
+- GHPT, RVASVT reikalavimų pritaikymas ir derinimas su valstybinėmis institucijomis bei registravimas.
+- Kokybės ir maisto saugos vadybos sistemų diegimas taikant tarptautinius standartų reikalavimus.
+- Maisto produktų energinės vertės nustatymas.
+- Mikrobiologinių procesų tyrimai žaliavoje, galutiniame produkte, kontrolė technologinio proceso metu bei produkto saugaus vartojimo termino nustatymas.
+- Instrumentinių tekstūros parametrų identifikavimas maisto produktuose.
+- Bioaktyvių medžiagų išsaugojimas ir probiotinių mikroorganizmų gyvybingumo išlaikymas maisto modelinėse sistemose.
+- Netradicinių žaliavų ir sveikatai palankių priedų panaudojimo maisto produktuose galimybių tyrimas, technologijų kūrimas ir jų adaptavimas gamyboje.
+- Padidintos biologinės vertės maisto produktų technologiniai sprendimai ir kokybės bei saugos tyrimai.
+- Maisto produktų technologiniai sprendimai ir kokybės bei saugos tyrimai (prototipo kūrimas, demonstravimas, bandomosios partijos gamyba).
+- Technologinių instrukcijų rengimas.
+- Kokybės ir maisto saugos vadybos sistemų diegimas taikant tarptautinius standartų reikalavimus.
+- Padidintos biologinės vertės maisto produktų energinės vertės nustatymas.
+- Mikrobiologinių procesų tyrimai padidintos biologinės vertės maisto produktų žaliavoje, galutiniame produkte, kontrolė technologinio proceso metu bei produkto saugaus vartojimo termino nustatymas.
+- Instrumentinių tekstūros parametrų identifikavimas padidintos biologinės vertės maisto produktuose.
+- Inovatyvus biožaliavų kūrimas, tobulinimas ir perdirbimas (biorafinavimas).
+- Inovatyvaus biožaliavų perdirbimo technologijų pritikymas konkrečiose gamybinėse sąlygose, kokybės ir saugos tyrimai.
+- Technologinių instrukcijų rengimas.
+- Instrumentinių tekstūros parametrų identifikavimas maisto produktuose.
+- Kokybės bei maisto saugos užtikrinimo sistemos įdiegimas viešojo maitinimo įmonėse: maisto saugos rizikos veiksnių analizė, vidaus auditas, GMO bei alergenų valdymas. 
+- Naujų patiekalų kūrimas, taikant pažangias technologijas.
+- Naujų patiekalų bandomosios partijos gamyba, taikant pažangias technologijas.
+-  Ekologinio komposto gamybos iš augalinių atliekų tyrimas nustatant optimaliausią gamybos trukmę, jo maistinę vertą, bei panaudojimą auginant dekoratyviuosius augalus.  
