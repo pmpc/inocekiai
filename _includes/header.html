@@ -7,35 +7,43 @@
 
       </div>
       <div class="col-sm-9">
-        <img class="img-responsive" src="../images/{{site.banner}}" alt="">
+        <!--<img class="img-responsive" src="../images/{{site.banner}}" alt="">-->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div id="ino-top-menu">
+            <div class="drop">
+                <button class="dropbtn hover_dropbtn hover_dropbtn"><a class="hover_dropbtn" href="{{ my_page.url | prepend: site.baseurl }}/">Pagrindinis</a></button>
+            </div>
+            <div class="dropdown drop collapse navbar-collapse">
+              <button class="dropbtn hover_dropbtn">Tyrimų partneriai</button>
+              <div class="dropdown-content drop_menu nav navbar-nav">
+                <a href="{{ my_page.url | prepend: site.baseurl }}/kauno-kolegija/">Kauno kolegija</a>
+                <a href="{{ my_page.url | prepend: site.baseurl }}/lietuvos-verslo-kolegija/" style="border-top: none">Lietuvos Verslo kolegija</a>
+                <a href="{{ my_page.url | prepend: site.baseurl }}/vu-kauno-humanitarinis-fakultetas/" style="border-top: none">VU Kauno humanitarinis fakultetas</a>
+              </div>
+            </div>
+            <div class="drop">
+              <button class="dropbtn hover_dropbtn"><a class="hover_dropbtn" href="{{ my_page.url | prepend: site.baseurl }}/kontaktai/">Kontaktai</a></button>
+            </div>
+            </div>
+
+          </div>
+        </nav>
       </div>
     </div>
   </div>
+  <div class="header-line">
+  </div>
 
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-              {% if {my_page.url} != '/kontaktai/' %}
-               <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          <li><a href="{{ my_page.url | prepend: site.baseurl }}/kontaktai/">Kontaktai</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
 </header>
