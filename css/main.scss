@@ -186,6 +186,7 @@ article {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  z-index: 1;
   width: 163%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -232,4 +233,10 @@ nav {
 
 .drop_menu a {
   border: 1px solid #3f51b5;
+}
+
+.index-page-image {
+  position: relative;
+  right: 25px;
+  width: 100%;
 }
