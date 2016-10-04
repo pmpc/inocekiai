@@ -47,6 +47,7 @@ image: 360.png
         </div>
         <div class="form-group">
             <div class="col-sm-9 col-sm-offset-3">
+                <div id="loader" class="loader col-md-1 hide"></div>
                 <input onclick="sendEmail(event)" id="submit" name="submit" type="submit" value="Siųsti" class="btn btn-primary">
             </div>
         </div>
@@ -62,6 +63,8 @@ image: 360.png
 
 <script>
 function sendEmail(event) {
+    sub_button.classList.add("hide");
+    loader.classList.remove("hide");
     event.preventDefault()
     form = document.getElementById("in_cont_form");
     //Form variables
@@ -70,6 +73,8 @@ function sendEmail(event) {
     var phone = document.getElementById('phone').value;
     var message = document.getElementById('message').value;
     var m_sent = document.getElementById('m_sent');
+    var loader = document.getElementById('loader');
+    var sub_button = document.getElementById('submit');
     
     //Ajax variables
     var http = new XMLHttpRequest();
@@ -85,6 +90,8 @@ function sendEmail(event) {
         if(http.readyState == 4 && http.status == 200) {
            m_sent.innerHTML = 'Žinutė išsiųsta';
            m_sent.classList.remove("hide");
+           sub_button.classList.remove("hide");
+           loader.classList.add("hide");
            form.reset();
            setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
         }
