@@ -77,8 +77,7 @@ function sendEmail(event) {
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
     var validation_error = document.getElementById('validation_error');
-    console.log(inc_name);
-    console.log(email);
+    
     if (!inc_name == "" && !email == "") {
         sub_button.classList.add("hide");
         loader.classList.remove("hide");
