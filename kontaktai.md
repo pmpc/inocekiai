@@ -53,6 +53,7 @@ image: 360.png
         </div>
         <div class="form-group">
             <div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
+            <div id="validation_error" class="col-sm-9 col-sm-offset-3 alert alert-danger hide">
             </div>
         </div>
     </form>
@@ -73,29 +74,34 @@ function sendEmail(event) {
     var m_sent = document.getElementById('m_sent');
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
+    var validation_error = document.getElementById('validation_error');
     sub_button.classList.add("hide");
     loader.classList.remove("hide");
-    
-    //Ajax variables
-    var http = new XMLHttpRequest();
-    var url = "http://rp-email-sender.rpd.lt/";
-    var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
-    http.open("POST", url, true);
-    
-    //Send the proper header information along with the request
-    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    
-    http.onreadystatechange = function() {
-    
-        if(http.readyState == 4 && http.status == 200) {
-           m_sent.innerHTML = 'Žinutė išsiųsta';
-           m_sent.classList.remove("hide");
-           sub_button.classList.remove("hide");
-           loader.classList.add("hide");
-           form.reset();
-           setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
+    if (!name == "" && !email.value == "") {
+        //Ajax variables
+        var http = new XMLHttpRequest();
+        var url = "http://rp-email-sender.rpd.lt/";
+        var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
+        http.open("POST", url, true);
+        
+        //Send the proper header information along with the request
+        http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        
+        http.onreadystatechange = function() {
+        
+            if(http.readyState == 4 && http.status == 200) {
+               m_sent.innerHTML = 'Žinutė išsiųsta';
+               m_sent.classList.remove("hide");
+               sub_button.classList.remove("hide");
+               loader.classList.add("hide");
+               validation_error.classList.add("hide");
+               form.reset();
+               setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
+            }
         }
+        http.send(params);
+    } else {
+        validation_error.classList.remove("hide");
     }
-    http.send(params);
 }
 </script>
