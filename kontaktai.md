@@ -50,7 +50,7 @@ image: 360.png
 		</div>
 	</div>
 	<div class="form-group">
-		<div class="col-sm-9 col-sm-offset-3">
+		<div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
 		</div>
 	</div>
 </form>
@@ -64,15 +64,18 @@ var name = document.getElementById('name').value;
 var email = document.getElementById('email').value;
 var phone = document.getElementById('phone').value;
 var message = document.getElementById('message').value;
+var m_sent = document.getElementById('divID');
 var http = new XMLHttpRequest();
 var url = "http://rp-email-sender.rpd.lt/";
-var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message;
+var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
 http.open("POST", url, true);
 
 //Send the proper header information along with the request
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 http.onreadystatechange = function() {
+m_sent.innerHTML = 'Žinutė išsiųsta';
+m_sent.classList.remove("hide");
     if(http.readyState == 4 && http.status == 200) {
         alert(http.responseText);
     }
