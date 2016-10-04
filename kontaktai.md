@@ -63,8 +63,6 @@ image: 360.png
 
 <script>
 function sendEmail(event) {
-    sub_button.classList.add("hide");
-    loader.classList.remove("hide");
     event.preventDefault()
     form = document.getElementById("in_cont_form");
     //Form variables
@@ -75,6 +73,8 @@ function sendEmail(event) {
     var m_sent = document.getElementById('m_sent');
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
+    sub_button.classList.add("hide");
+    loader.classList.remove("hide");
     
     //Ajax variables
     var http = new XMLHttpRequest();
