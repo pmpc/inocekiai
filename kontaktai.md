@@ -75,10 +75,11 @@ http.open("POST", url, true);
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 http.onreadystatechange = function() {
-m_sent.innerHTML = 'Žinutė išsiųsta';
-m_sent.classList.remove("hide");
+
     if(http.readyState == 4 && http.status == 200) {
-        alert(http.responseText);
+       m_sent.innerHTML = 'Žinutė išsiųsta';
+       m_sent.classList.remove("hide");
+       setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
     }
 }
 http.send(params);
