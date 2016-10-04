@@ -20,7 +20,7 @@ image: 360.png
         <a href="mailto:projektai@inocekiai.lt">projektai@inocekiai.lt</a>
     </div>
     <div class="col-md-6">
-    <form class="form-horizontal" role="form" action="#">
+    <form class="form-horizontal" id="in_cont_form" role="form" action="#">
         <div class="form-group">
             <label for="name" class="col-sm-3 control-label">Vardas</label>
             <div class="col-sm-9">
@@ -63,7 +63,7 @@ image: 360.png
 <script>
 function sendEmail(event) {
     event.preventDefault()
-    
+    form = document.getElementById("in_cont_form");
     //Form variables
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
@@ -85,6 +85,7 @@ function sendEmail(event) {
         if(http.readyState == 4 && http.status == 200) {
            m_sent.innerHTML = 'Žinutė išsiųsta';
            m_sent.classList.remove("hide");
+           form.reset();
            setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
         }
     }
