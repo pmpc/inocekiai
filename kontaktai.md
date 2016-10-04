@@ -22,9 +22,9 @@ image: 360.png
     <div class="col-md-6">
     <form class="form-horizontal" id="in_cont_form" role="form" action="#">
         <div class="form-group">
-            <label for="name" class="col-sm-3 control-label">Vardas</label>
+            <label for="inc_name" class="col-sm-3 control-label">Vardas</label>
             <div class="col-sm-9">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Vardas, pavarde" value="">
+                <input type="text" class="form-control" id="inc_name" name="inc_name" placeholder="Vardas, pavarde" value="">
             </div>
         </div>
         <div class="form-group">
@@ -65,12 +65,11 @@ image: 360.png
 <div style="overflow:hidden;width:1124px;height:350px;resize:none;max-width:100%;"><div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Neries+krantinė+16+b,+Kaunas,+Kauno+apskritis,+Lietuva&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-html" rel="nofollow" href="http://www.szablonypremium.pl" id="inject-map-data"></a><style>#gmap-canvas .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=52540eb6-2878-4f09-e99a-787c9ed5c614&c=google-map-html&u=1475485358" defer="defer" async="async"></script>
 
 <script>
-var name = document.getElementById('name').value;
 function sendEmail(event) {
     event.preventDefault()
     form = document.getElementById("in_cont_form");
     //Form variables
-    var name = document.getElementById('name').value;
+    var inc_name = document.getElementById('inc_name').value;
     var email = document.getElementById('email').value;
     var phone = document.getElementById('phone').value;
     var message = document.getElementById('message').value;
@@ -78,13 +77,13 @@ function sendEmail(event) {
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
     var validation_error = document.getElementById('validation_error');
-    if (!name == "" && !email.value == "") {
+    if (!inc_name == "" && !email.value == "") {
         sub_button.classList.add("hide");
         loader.classList.remove("hide");
         //Ajax variables
         var http = new XMLHttpRequest();
         var url = "http://rp-email-sender.rpd.lt/";
-        var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
+        var params = "name="+inc_name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
         http.open("POST", url, true);
         
         //Send the proper header information along with the request
