@@ -77,7 +77,7 @@ function sendEmail(event) {
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
     var validation_error = document.getElementById('validation_error');
-    if (!inc_name == "" && !email.value == "") {
+    if (!inc_name.value == "" && !email.value == "") {
         sub_button.classList.add("hide");
         loader.classList.remove("hide");
         //Ajax variables
