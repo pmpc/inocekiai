@@ -41,7 +41,7 @@ image: 360.png
 	<div class="form-group">
 		<label for="message" class="col-sm-3 control-label">Žinutė</label>
 		<div class="col-sm-9">
-			<textarea class="form-control" rows="4" name="message"></textarea>
+			<textarea class="form-control" rows="4" id="message" name="message"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
@@ -60,9 +60,13 @@ image: 360.png
 
 <script>
 function sendEmail() {
+var name = document.getElementById('name').value;
+var email = document.getElementById('email').value;
+var phone = document.getElementById('phone').value;
+var message = document.getElementById('message').value;
 var http = new XMLHttpRequest();
 var url = "http://rp-email-sender.rpd.lt/";
-var params = "name=test";
+var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message;
 http.open("POST", url, true);
 
 //Send the proper header information along with the request
