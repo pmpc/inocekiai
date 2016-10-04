@@ -65,7 +65,7 @@ var name = document.getElementById('name').value;
 var email = document.getElementById('email').value;
 var phone = document.getElementById('phone').value;
 var message = document.getElementById('message').value;
-var m_sent = document.getElementById('divID');
+var m_sent = document.getElementById('m_sent');
 var http = new XMLHttpRequest();
 var url = "http://rp-email-sender.rpd.lt/";
 var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
