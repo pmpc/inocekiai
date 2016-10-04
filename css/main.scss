@@ -85,7 +85,6 @@ article {
 }
 
 .page-image {
-  float: right;
   padding-right: 40px;
   padding-bottom: 30px;
   max-height: 110px;
@@ -237,7 +236,7 @@ nav {
 
 .index-page-image {
   position: relative;
-  right: 25px;
+  right: 17px;
   width: 100%;
 }
 
@@ -272,4 +271,16 @@ nav {
 
 ul.nav h3 {
   margin-top: 0;
+}
+
+hr {
+  margin-top: 0;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.no-padding-left {
+  padding-left: 0;
 }

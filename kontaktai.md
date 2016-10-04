@@ -5,84 +5,89 @@ permalink: /kontaktai/
 link:
 image: 360.png
 ---
-<div class="col-md-6">
-    <a href="http://www.Inocekiai.lt">
-    <b>Inocekiai.lt</b>
-    </a>
-    <br>
-    Tel.: +370 652 84039
-    <br>
-    El. paštas:
-    <br>
-    <a href="mailto:info@inocekiai.lt">info@inocekiai.lt</a>
-    <br>
-    <a href="mailto:projektai@inocekiai.lt">projektai@inocekiai.lt</a>
-</div>
-<div class="col-md-6">
-<form class="form-horizontal" role="form" action="#">
-	<div class="form-group">
-		<label for="name" class="col-sm-3 control-label">Vardas</label>
-		<div class="col-sm-9">
-			<input type="text" class="form-control" id="name" name="name" placeholder="Vardas, pavarde" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-3 control-label">El. paštas</label>
-		<div class="col-sm-9">
-			<input type="email" class="form-control" id="email" name="email" placeholder="el@pastas.lt" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="phone" class="col-sm-3 control-label">Telefono nr.</label>
-		<div class="col-sm-9">
-			<input type="text" class="form-control" id="phone" name="phone" placeholder="+370 000 00000">
-		</div>
-	</div>	
-	<div class="form-group">
-		<label for="message" class="col-sm-3 control-label">Žinutė</label>
-		<div class="col-sm-9">
-			<textarea class="form-control" rows="4" id="message" name="message"></textarea>
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-9 col-sm-offset-3">
-			<input onclick="sendEmail(event)" id="submit" name="submit" type="submit" value="Siųsti" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
-		</div>
-	</div>
-</form>
+<div class="col-md-12">
+    <div class="col-md-6">
+        <a href="http://www.Inocekiai.lt">
+        <b>Inocekiai.lt</b>
+        </a>
+        <br>
+        Tel.: +370 652 84039
+        <br>
+        El. paštas:
+        <br>
+        <a href="mailto:info@inocekiai.lt">info@inocekiai.lt</a>
+        <br>
+        <a href="mailto:projektai@inocekiai.lt">projektai@inocekiai.lt</a>
+    </div>
+    <div class="col-md-6">
+    <form class="form-horizontal" role="form" action="#">
+        <div class="form-group">
+            <label for="name" class="col-sm-3 control-label">Vardas</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Vardas, pavarde" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">El. paštas</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" id="email" name="email" placeholder="el@pastas.lt" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="phone" class="col-sm-3 control-label">Telefono nr.</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="+370 000 00000">
+            </div>
+        </div>	
+        <div class="form-group">
+            <label for="message" class="col-sm-3 control-label">Žinutė</label>
+            <div class="col-sm-9">
+                <textarea class="form-control" rows="4" id="message" name="message"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-9 col-sm-offset-3">
+                <input onclick="sendEmail(event)" id="submit" name="submit" type="submit" value="Siųsti" class="btn btn-primary">
+            </div>
+        </div>
+        <div class="form-group">
+            <div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
+            </div>
+        </div>
+    </form>
+    </div>
 </div>
 
 <div style="overflow:hidden;width:1124px;height:350px;resize:none;max-width:100%;"><div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Neries+krantinė+16+b,+Kaunas,+Kauno+apskritis,+Lietuva&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-html" rel="nofollow" href="http://www.szablonypremium.pl" id="inject-map-data"></a><style>#gmap-canvas .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=52540eb6-2878-4f09-e99a-787c9ed5c614&c=google-map-html&u=1475485358" defer="defer" async="async"></script>
 
 <script>
 function sendEmail(event) {
-event.preventDefault()
-var name = document.getElementById('name').value;
-var email = document.getElementById('email').value;
-var phone = document.getElementById('phone').value;
-var message = document.getElementById('message').value;
-var m_sent = document.getElementById('m_sent');
-var http = new XMLHttpRequest();
-var url = "http://rp-email-sender.rpd.lt/";
-var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
-http.open("POST", url, true);
-
-//Send the proper header information along with the request
-http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-http.onreadystatechange = function() {
-
-    if(http.readyState == 4 && http.status == 200) {
-       m_sent.innerHTML = 'Žinutė išsiųsta';
-       m_sent.classList.remove("hide");
-       setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
+    event.preventDefault()
+    
+    //Form variables
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var message = document.getElementById('message').value;
+    var m_sent = document.getElementById('m_sent');
+    
+    //Ajax variables
+    var http = new XMLHttpRequest();
+    var url = "http://rp-email-sender.rpd.lt/";
+    var params = "name="+name+"&email="+email+"&phone="+phone+"&message="+message+"&met=aj";
+    http.open("POST", url, true);
+    
+    //Send the proper header information along with the request
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    
+    http.onreadystatechange = function() {
+    
+        if(http.readyState == 4 && http.status == 200) {
+           m_sent.innerHTML = 'Žinutė išsiųsta';
+           m_sent.classList.remove("hide");
+           setTimeout(function(){m_sent.classList.add("hide"); }, 3000);
+        }
     }
-}
-http.send(params);
-
+    http.send(params);
 }
 </script>

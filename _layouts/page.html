@@ -4,18 +4,22 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <div>
-      <div style="float:left">
-        {% if page.permalink == '/' %}
-        <img class="index-page-image" src="../images/pexels-photo-53874.jpeg" onerror="this.style.visibility = 'hidden'">
-        {% endif %}
+    <div class="col-md-12 no-padding-left">
+      {% if page.permalink == '/' %}
+      <img class="index-page-image" src="../images/pexels-photo-53874.jpeg" onerror="this.style.visibility = 'hidden'">
+      {% endif %}
+      <div class="col-md-8 no-padding-left">
       <h1 class="post-title">{{ page.title }}</h1>
         <meta name="title" content="{{ page.title }}">
           <a href="http://{{ page.link }}">{{ page.link }}</a>
       </div>
+    <div class="col-md-4 align-right">
       <img class="page-image" src="../images/{{ page.image }}" onerror="this.style.display = 'none'">
     </div>
-    <hr>
+    </div>
+    <div class="col-md-12">
+      <hr>
+    </div>
   </header>
 
   <div class="post-content">
