@@ -53,6 +53,7 @@ image: 360.png
         </div>
         <div class="form-group">
             <div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
+            </div>
             <div id="validation_error" class="col-sm-9 col-sm-offset-3 alert alert-danger hide">
             </div>
         </div>
