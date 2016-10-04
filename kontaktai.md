@@ -19,7 +19,7 @@ image: 360.png
     <a href="mailto:projektai@inocekiai.lt">projektai@inocekiai.lt</a>
 </div>
 <div class="col-md-6">
-<form class="form-horizontal" role="form" method="post" action="http://rp-email-sender.rpd.lt/">
+<form class="form-horizontal" role="form" action="#">
 	<div class="form-group">
 		<label for="name" class="col-sm-3 control-label">Vardas</label>
 		<div class="col-sm-9">
@@ -33,20 +33,20 @@ image: 360.png
 		</div>
 	</div>
 	<div class="form-group">
+		<label for="phone" class="col-sm-3 control-label">Telefono nr.</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" id="phone" name="phone" placeholder="+370 000 00000">
+		</div>
+	</div>	
+	<div class="form-group">
 		<label for="message" class="col-sm-3 control-label">Žinutė</label>
 		<div class="col-sm-9">
 			<textarea class="form-control" rows="4" name="message"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="phone" class="col-sm-3 control-label">Telefono nr.</label>
-		<div class="col-sm-9">
-			<input type="text" class="form-control" id="phone" name="phone" placeholder="+370 000 00000">
-		</div>
-	</div>
-	<div class="form-group">
 		<div class="col-sm-9 col-sm-offset-3">
-			<input id="submit" name="submit" type="submit" value="Siųsti" class="btn btn-primary">
+			<input onclick="sendEmail()" id="submit" name="submit" type="submit" value="Siųsti" class="btn btn-primary">
 		</div>
 	</div>
 	<div class="form-group">
@@ -57,3 +57,23 @@ image: 360.png
 </div>
 
 <div style="overflow:hidden;width:1124px;height:350px;resize:none;max-width:100%;"><div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Neries+krantinė+16+b,+Kaunas,+Kauno+apskritis,+Lietuva&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-html" rel="nofollow" href="http://www.szablonypremium.pl" id="inject-map-data"></a><style>#gmap-canvas .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=52540eb6-2878-4f09-e99a-787c9ed5c614&c=google-map-html&u=1475485358" defer="defer" async="async"></script>
+
+<script>
+function sendEmail() {
+var http = new XMLHttpRequest();
+var url = "http://rp-email-sender.rpd.lt/";
+var params = "name=test";
+http.open("POST", url, true);
+
+//Send the proper header information along with the request
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200) {
+        alert(http.responseText);
+    }
+}
+http.send(params);
+
+}
+</script>
