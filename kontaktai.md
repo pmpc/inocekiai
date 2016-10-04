@@ -55,6 +55,7 @@ image: 360.png
             <div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
             </div>
             <div id="validation_error" class="col-sm-9 col-sm-offset-3 alert alert-danger hide">
+                Privaloma užpildyti laukus: Vardas, El.paštas.
             </div>
         </div>
     </form>
@@ -76,9 +77,9 @@ function sendEmail(event) {
     var loader = document.getElementById('loader');
     var sub_button = document.getElementById('submit');
     var validation_error = document.getElementById('validation_error');
-    sub_button.classList.add("hide");
-    loader.classList.remove("hide");
     if (!name == "" && !email.value == "") {
+        sub_button.classList.add("hide");
+        loader.classList.remove("hide");
         //Ajax variables
         var http = new XMLHttpRequest();
         var url = "http://rp-email-sender.rpd.lt/";
