@@ -54,12 +54,14 @@ MITA patvirtinto daugiau nei 2500 paslaugų, kurias verslas gali įsigyti iš mo
 </div>
  
 **Kiti dokumentai**
+
+<div class="col-md-12 download-file-ikon" style="padding-bot: 20px;">
+    <ul>
+        <li> <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/mtep_paslaugu_uz_inovacinius_cekius_aprasas_2016_02_29_redakcija.doc">MTEP paslaugų už inovacinius čekius duomenų bazės sudarymo ir administravimo aprašas</a> </li>
+    </ul>
+    <img src="../images/word.png" alt="Parsisiųsti word failą" >
+</div>
+    
 <div class="row">
-    <div class="col-md-12 download-file-ikon" style="padding-bot: 20px;">
-        <ul>
-            <li> <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/mtep_paslaugu_uz_inovacinius_cekius_aprasas_2016_02_29_redakcija.doc">MTEP paslaugų už inovacinius čekius duomenų bazės sudarymo ir administravimo aprašas</a> </li>
-        </ul>
-        <img src="../images/word.png" alt="Parsisiųsti word failą" >
-    </div>
     <!-- MORE INFO GOES HERE -->
 </div>
