@@ -11,7 +11,7 @@ image: 360.png
         <b>Inočekiai.lt</b>
         </a>
         <br>
-        Neries kr. 16
+        Neries kr. 16-451
         <br>
         48402 Kaunas
         <br>
