@@ -19,9 +19,9 @@ image: 360.png
         <br>
         El. paštas:
         <br>
-        <a href="mailto:info@inocekiai.lt">info@inocekiai.lt</a>
+        <a href="mailto:info@inocekiai.lt" title="info@infocekiai.lt">info@inocekiai.lt</a>
         <br>
-        <a href="mailto:projektai@inocekiai.lt">projektai@inocekiai.lt</a>
+        <a href="mailto:projektai@inocekiai.lt" title="projektai@infocekiai.lt">projektai@inocekiai.lt</a>
     </div>
     <div class="col-md-6">
     <form class="form-horizontal" id="in_cont_form" role="form" action="#">
