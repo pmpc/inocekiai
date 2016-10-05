@@ -34,14 +34,6 @@ Galimi pareiškėjai: Privatūs juridiniai asmenys, regstruoti ne trumpiau kaip 
 
 - Labai mažai ir mažai įmonei - nuo 45% iki 70% fiksuotos sumos.
 
-<u>REMIAMOS VEIKLOS:</u>
-
-- Inovacinių čekių, skirtų techninių galimybių studijoms atlikti, teikimas;
-(galimybių studija – projekto galimybių vertinimas ir analizė, kuriais siekiama paremti sprendimų priėmimo procesą objektyviai ir racionaliai atskleidžiant jo stiprybes, silpnybes, galimybes ir grėsmes, taip pat nustatant išteklius, kurių reikia jam įvykdyti, ir galiausiai jo sėkmės perspektyvas; )
-
-- Inovacinių čekių, skirtų ankstyvosios stadijos MTEP projektams, teikimas.
-Projekto trukmė - ne ilgesnė nei 6 mėn.
-
 <u>Bendros investicijos pagal šią priemonę 2014-2020 m. periodu:</u>
 
 - ES struktūrinių fondų lėšos - 10 136 700 Eur
