@@ -1,30 +1,35 @@
 ---
 layout: page
-title: Apie inočekiai.lt
+title: Inovaciniai čekiai
 permalink: /
 link:
 image: 360.png
 ---
-**Inočekiai.lt** komanda padės jums gauti iki 6.000 Eur. negrąžinamą Europos Sąjungos paramą pagal priemonę „Inovaciniai čekiai LT“, skirtą įmonių inovacinės veiklos pradžiai. 
+Projektas teikia paramą įmonių technnių galimybių studijai atlikti: galimybių studija – projekto galimybių vertinimas ir analizė, kuriais siekiama paremti sprendimų priėmimo procesą objektyviai ir racionaliai atskleidžiant jo stiprybes, silpnybes, galimybes ir grėsmes, taip pat nustatant išteklius, kurių reikia jam įvykdyti, ir galiausiai jo sėkmės perspektyvas. 
 
-Mes atstovaujame tris mokslo ir studijų įstaigas – **Kauno kolegiją**, **Lietuvos Verslo kolegiją** ir **VU Kauno humanitarinį fakultetą**. 
-Susiekite su mumis ir mes Jums padėsime išsirinkti tinkamiausią verslo sprendimą pagal universitetų ir kolegijų teikiamų paslaugų sąrašą.
+**Inovacinis čekis - kas tai?**
+Tarp Mokslo, inovacijų ir technologijų agentūros (MITA) ir pareiškėjo pasirašyta dotacijų sutartis dėl remiamų veiklų išlaidų dalies kompensavimo.
 
-<br>
+**Tikslas**
+Skatinti verslą ir mokslą užmegzti pirminius kontaktus, tęsti bendradarbiaujant jau pradėtas vykdyti mokslinių tyrimų ir (ar) eksperimentinės plėtros (MTEP) veiklas, skatinti įmones aktyviau vykdyti inovacinę veiklą bei pasinaudoti bendradarbiavimo teikiamomis galimybėmis.
 
-{: style="text-align: center;"}
-**EUROPOS PARAMOS KVIETIMAS INOVACINIAM BENDRADARBIAVIMUI SKATINTI: „INOVACINIAI ČEKIAI“**
-<br>
+**Kas gali gauti finansavimą?**
+Privatieji juridiniai asmenys. Projekto veiklos turi būti vykdomos Sumanios specializacijos kryptyse.
+Galimi pareiškėjai: Privatūs juridiniai asmenys, regstruoti ne trumpiau kaip 6 mėn. Metinė apyvarta ne mažesnė nei 3000 Eur.
 
-<u>PRIEMONĖS TIKSLAS:</u> 
+<u>Finansuojamos veiklos</u> 
 
-- Skatinti verslą ir mokslą užmegzti pirminius kontaktus;
+- Inovacinių čekių, skirtų techninių galimybių studijoms atlikti, teikimas;
 
-- Tęsti bendradarbiaujant jau pradėtas vykdyti MTEP veiklas;
+- Inovacinių čekių, skirtų ankstyvosios stadijos MTEP projektams, teikimas.
 
-- Skatinti įmones aktyviau vykdyti inovacinę veiklą bei pasinaudoti bendradarbiavimo teikiamomis galimybėmis.
+<u>Finansavimo sumos</u> 
 
-<u>GALIMI PAREIŠKĖJAI:</u> Privatūs juridiniai asmenys: registruoti ne trumpiau nei 6 mėn. Metinė apyvarta ne mažesnė nei 3.000 EUR. Partneriai negalimi.
+- Didelei įmonei - nuo 25 % iki 50 % fiksuotos sumos;
+
+- Vidutinei įmonei - nuo 35% iki 60% fiksuotos sumos;
+
+- Labai mažai ir mažai įmonei - nuo 45% iki 70% fiksuotos sumos.
 
 <u>REMIAMOS VEIKLOS:</u>
 
@@ -34,44 +39,19 @@ Susiekite su mumis ir mes Jums padėsime išsirinkti tinkamiausią verslo sprend
 - Inovacinių čekių, skirtų ankstyvosios stadijos MTEP projektams, teikimas.
 Projekto trukmė - ne ilgesnė nei 6 mėn.
 
-**Pagal priemonę sumaniosios specializacijos kryptims numatoma skirti:**
+<u>Bendros investicijos pagal šią priemonę 2014-2020 m. periodu:</u>
 
-- Energetikai ir tvariai aplinkai – iki 185.500 Eur;
-- Įtraukiai ir kūrybingai visuomenei – iki 895.250 Eur;
-- Agroinovacijoms ir maisto technologijoms – iki 182.750 Eur;
-- Naujiems gamybos procesams, medžiagoms ir technologijoms – iki 431.750 Eur;
-- Sveikatos technologijoms ir biotechnologijoms – iki 154.000 Eur;
-- Transportui, logistikai ir informacinėms ir ryšių technologijoms (IRT) – iki 650.750 Eur.
+- ES struktūrinių fondų lėšos - 10 136 700 Eur
 
-<u>MAKSIMALI PARAMA:</u>
-Maksimali parama įmonei: 6000 EUR pagal fiksuotąjį įkainį.  (Įkainiai bus patvirtinti vėliau)
+- Privačios lėšos - 11 203 722 Eur
 
-**Didžiausias finansavimo intensyvumas:**
+Mes atstovaujame tris mokslo ir studijų įstaigas – **Kauno kolegiją**, **Lietuvos Verslo kolegiją** ir **VU Kauno humanitarinį fakultetą**. Naudodamiesi mūsų partnerių paslaugomis iš Profesijų paramos centro gaunate dovanas: Projekto parengimą ir administravimą bei specializuotą programinę įrangą pritaikytą Jūsų veiklai. 
 
-<table class="table table-bordered" style="border: 2px dotted #4a5ecf">
-    <tr>
-        <td style="border: 2px dotted #4a5ecf">
-            <div style="padding-bottom: 10px;">Techninių galimybių studijoms ir moksliniams tyrimams:</div>
-            <ul>
-                <li> Labai maža ir maža įmonė 70 proc;</li>
-                <li> Vidutinė įmone 60 proc;</li>
-                <li> Didelė įmonė 50 proc.</li>
-            </ul>
-        </td>
-        <td style="padding-right: 190px;">
-            <div style="padding-bottom: 10px;" >Eksperimentinei plėtrai:</div>
-            <ul>
-                <li> Maža įmonė – 45 proc.;</li>
-                <li> Vidutinė įmonė 35 proc.;</li>
-                <li> įmonė 25 proc.</li>
-            </ul>
-        </td>
-    </tr>
-</table>
+**Paslaugų sąrašas**
+MITA patvirtinto daugiau nei 2500 paslaugų, kurias verslas gali įsigyti iš mokslo ir studijų institucijų, sąrašą:
 
+ - <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/paslaugu_uz_inovacinius_cekius_sarasas_2016_08_22_redakcija.xlsx">MTEP paslaugų už inovacinius čekius sąrašas </a>
+ 
+**Kiti dokumentai**
 
-
-<u>BALAI SKIRIAMI UŽ:</u>
-
-- Pirmąjį kontaktą su mokslo ir studijų institucija (turi būti pirmasis teikiamas projektas (6 balai)  arba įvykdyta ne daugiau nei vienas projektas pagal Inočekių priemonę (3 balai);
-- MTEP vykdymo etapą – Prototipo sukūrimas (4 balai)->prototipo testavimas (3 balai) ->bandomosios partijos gamyba (2 balai)->techninė galimybių studija (1 balas).
+- <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/mtep_paslaugu_uz_inovacinius_cekius_aprasas_2016_02_29_redakcija.doc">MTEP paslaugų už inovacinius čekius duomenų bazės sudarymo ir administravimo aprašas</a>
