@@ -8,7 +8,7 @@ image: 360.png
 <div class="col-md-12">
     <div class="col-md-6">
         <a href="http://www.Inocekiai.lt" title="Inocekiai.lt">
-        <b>Inocekiai.lt</b>
+        <b>Inočekiai.lt</b>
         </a>
         <br>
         Neries kr. 16
