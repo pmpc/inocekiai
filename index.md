@@ -51,16 +51,20 @@ Maksimali parama įmonei: 6000 EUR pagal fiksuotąjį įkainį.  (Įkainiai bus 
 <table class="table table-bordered" style="border: 2px dotted #4a5ecf">
     <tr>
         <td style="border: 2px dotted #4a5ecf">
-            Techninių galimybių studijoms ir moksliniams tyrimams:
-            <li> Labai maža ir maža įmonė 70 proc;</li>
-            <li> Vidutinė įmone 60 proc;</li>
-            <li> Didelė įmonė 50 proc.</li>
+            <div style="padding-bottom: 10px;">Techninių galimybių studijoms ir moksliniams tyrimams:</div>
+            <ul>
+                <li> Labai maža ir maža įmonė 70 proc;</li>
+                <li> Vidutinė įmone 60 proc;</li>
+                <li> Didelė įmonė 50 proc.</li>
+            </ul>
         </td>
         <td style="padding-right: 190px;">
-            Eksperimentinei plėtrai:
-            <li> Maža įmonė – 45 proc.;</li>
-            <li> Vidutinė įmonė 35 proc.;</li>
-            <li> įmonė 25 proc.</li>
+            <div style="padding-bottom: 10px;" >Eksperimentinei plėtrai:</div>
+            <ul>
+                <li> Maža įmonė – 45 proc.;</li>
+                <li> Vidutinė įmonė 35 proc.;</li>
+                <li> įmonė 25 proc.</li>
+            </ul>
         </td>
     </tr>
 </table>
