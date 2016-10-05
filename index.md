@@ -46,8 +46,20 @@ Mes atstovaujame tris mokslo ir studijų įstaigas – **Kauno kolegiją**, **Li
 <br>
 MITA patvirtinto daugiau nei 2500 paslaugų, kurias verslas gali įsigyti iš mokslo ir studijų institucijų, sąrašą:
 
- - <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/paslaugu_uz_inovacinius_cekius_sarasas_2016_08_22_redakcija.xlsx">MTEP paslaugų už inovacinius čekius sąrašas </a>
+<div class="col-md-12 download-file-ikon">
+    <ul>
+       <li> <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/paslaugu_uz_inovacinius_cekius_sarasas_2016_08_22_redakcija.xlsx">MTEP paslaugų už inovacinius čekius sąrašas </a> </li>
+    </ul>
+    <img src="../images/excel.png" alt="Parsisiųsti excel failą" >
+</div>
  
 **Kiti dokumentai**
-
-- <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/mtep_paslaugu_uz_inovacinius_cekius_aprasas_2016_02_29_redakcija.doc">MTEP paslaugų už inovacinius čekius duomenų bazės sudarymo ir administravimo aprašas</a>
+<div class="row">
+    <div class="col-md-12 download-file-ikon" style="padding-bot: 20px;">
+        <ul>
+            <li> <a href="http://www.mita.lt/uploads/documents/inovaciniai_cekiai/mtep_paslaugu_uz_inovacinius_cekius_aprasas_2016_02_29_redakcija.doc">MTEP paslaugų už inovacinius čekius duomenų bazės sudarymo ir administravimo aprašas</a> </li>
+        </ul>
+        <img src="../images/word.png" alt="Parsisiųsti word failą" >
+    </div>
+    <!-- MORE INFO GOES HERE -->
+</div>

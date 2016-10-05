@@ -303,3 +303,11 @@ hr {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.download-file-ikon ul {
+  float: left
+}
+
+.download-file-ikon img {
+  padding-left: 10px;
+}
