@@ -26,7 +26,7 @@ image: 360.png
     <div class="col-md-6">
     <form class="form-horizontal" id="in_cont_form" role="form" action="#">
         <div class="form-group">
-            <label for="inc_name" class="col-sm-3 control-label">Vardas, pavardė</label>
+            <label for="inc_name" class="col-sm-3 control-label">Vardas</label>
             <div class="col-sm-9">
                 <input type="text" class="form-control" id="inc_name" name="inc_name" placeholder="Vardas, pavardė" value="">
             </div>
