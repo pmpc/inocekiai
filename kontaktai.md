@@ -59,7 +59,7 @@ image: 360.png
             <div id="m_sent" class="col-sm-9 col-sm-offset-3 alert alert-success hide">
             </div>
             <div id="validation_error" class="col-sm-9 col-sm-offset-3 alert alert-danger hide">
-                Privaloma užpildyti laukus: Vardas, El.paštas.
+                Privaloma užpildyti laukus: Vardas, El. paštas.
             </div>
         </div>
     </form>
