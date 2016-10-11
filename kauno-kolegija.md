@@ -150,7 +150,7 @@ image: kauno_kolegija.png
   </div>  
   <div id="menu4" class="tab-pane fade">
     <div class="col-md-12 direction-title">
-          <img src="../images/kk_1.png" alt="ENERGETIKA IR TVARI APLINKA" class="col-md-1">
+          <img src="../images/sveikatos-ir-bio-technologijos.png" alt="ENERGETIKA IR TVARI APLINKA" class="col-md-1">
           <h4 class="col-md-11">
               ENERGETIKA IR TVARI APLINKA
           </h4>
