@@ -36,7 +36,7 @@ image: lietuvos_verslo_kolegija.png
             ĮTRAUKI IR KŪRYBINGA VISUOMENĖ
         </h4>
     </div>
-    <h3>Paslaugos:</h3>
+    <h3>Paslaugos: </h3>
     <ul>
         <li> Organizacijos verslo modelio kūrimas ar keitimas panaudojant pažangias vadybos metodikas ir įvairias technologijas techninė galimybių studija.</li>
         <li> Siekiant proveržio organizacijos veikloje strategijos rengimas ar koregavimas panaudojant inovacijas keičiant verslo modelius ir kuriant naujas taisykles ir standartus rinkoje  panaudojant pažangias inovatyvias technologijas techninė galimybių studija.</li>
