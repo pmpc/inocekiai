@@ -37,7 +37,7 @@ link: www.khf.vu.lt
 <div class="tab-content">
   <div id="home" class="tab-pane fade in active">
     <div class="col-md-12 direction-title">
-        <img src="../images/kk_1.png" alt="NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS" class="col-md-1">
+        <img src="../images/nauji-bamybos-procesai-medziagos-technologijos.png" alt="NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS" class="col-md-1">
         <h4 class="col-md-11">
             NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS
         </h4>
@@ -57,7 +57,7 @@ link: www.khf.vu.lt
   </div>
   <div id="menu1" class="tab-pane fade">
     <div class="col-md-12 direction-title">
-          <img src="../images/kk_1.png" alt="TRANSPORTAS, LOGISTIKA IR INFORMACINIŲ RYŠIŲ TECHNOLOGIJOS" class="col-md-1">
+          <img src="../images/transportas-logistika-ir-informaciniu-rysiu-technologijos.png" alt="TRANSPORTAS, LOGISTIKA IR INFORMACINIŲ RYŠIŲ TECHNOLOGIJOS" class="col-md-1">
           <h4 class="col-md-11">
               TRANSPORTAS, LOGISTIKA IR INFORMACINIŲ RYŠIŲ TECHNOLOGIJOS
           </h4>
@@ -88,7 +88,7 @@ link: www.khf.vu.lt
   </div>
   <div id="menu2" class="tab-pane fade">
     <div class="col-md-12 direction-title">
-          <img src="../images/kk_1.png" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
+          <img src="../images/itrauki-ir-kurybinga-visuomene.png" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
           <h4 class="col-md-11">
               ĮTRAUKI IR KŪRYBINGA VISUOMENĖ
           </h4>
@@ -110,7 +110,7 @@ link: www.khf.vu.lt
 </div>
   <div id="menu2" class="tab-pane fade">
     <div class="col-md-12 direction-title">
-          <img src="../images/kk_1.png" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
+          <img src="../images/itrauki-ir-kurybinga-visuomene.png" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
           <h4 class="col-md-11">
               ĮTRAUKI IR KŪRYBINGA VISUOMENĖ
           </h4>
@@ -132,7 +132,7 @@ link: www.khf.vu.lt
 </div>
   <div id="menu3" class="tab-pane fade">
     <div class="col-md-12 direction-title">
-          <img src="../images/kk_1.png" alt="ENERGETIKA IR TVARI APLINKA" class="col-md-1">
+          <img src="../images/energetika-ir-tvari-aplinka.png" alt="ENERGETIKA IR TVARI APLINKA" class="col-md-1">
           <h4 class="col-md-11">
               ENERGETIKA IR TVARI APLINKA
           </h4>
