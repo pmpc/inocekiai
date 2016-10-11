@@ -46,7 +46,7 @@ image: kauno_kolegija.png
 <div class="tab-content">
   <div id="home" class="tab-pane fade in active">
     <div class="col-md-12 direction-title">
-        <img src="../images/kk_1.png" alt="NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS" class="col-md-1">
+        <img src="../images/nauji-bamybos-procesai-medziagos-technologijos.png" alt="NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS" class="col-md-1">
         <h4 class="col-md-11">
             NAUJI GAMYBOS PROCESAI, MEDŽIAGOS IR TECHNOLOGIJOS
         </h4>
