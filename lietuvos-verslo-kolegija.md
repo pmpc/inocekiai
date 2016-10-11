@@ -31,7 +31,7 @@ image: lietuvos_verslo_kolegija.png
 <div class="tab-content">
   <div id="home" class="tab-pane fade in active">
     <div class="col-md-12 direction-title">
-        <img src="../images/itrauki-ir-kurybinga-visuomene" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
+        <img src="../images/itrauki-ir-kurybinga-visuomene.png" alt="ĮTRAUKI IR KŪRYBINGA VISUOMENĖ" class="col-md-1">
         <h4 class="col-md-11">
             ĮTRAUKI IR KŪRYBINGA VISUOMENĖ
         </h4>
